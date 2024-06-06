@@ -1,13 +1,16 @@
-import TaskInput from "./components/TaskInput"
-import TaskList from "./components/TaskList"
+import { createBrowserRouter } from "react-router-dom";
+import TaskList from "./components/TaskList";
+import TaskInput from "./components/TaskInput";
 
-const App = () => {
-  return (
-    <>
-      <TaskInput/>
-      <TaskList/>
-    </>
-  )
-}
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element: <TaskList/>
+  },
+  {
+    path:"/task-input",
+    element: <TaskInput/>
+  }
+])
 
-export default App
+export default router
