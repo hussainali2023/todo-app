@@ -53,7 +53,7 @@ const TaskList = () => {
 
   return (
     <div className="flex py-6 items-center justify-center min-h-screen bg-gray-100">
-      <div className="md:w-1/2 mx-auto px-16 py-16 bg-gradient-to-r from-violet-500 to-pink-500 rounded-xl">
+      <div className="md:w-1/2 mx-auto px-8 py-8 md:px-16 md:py-16 bg-gradient-to-r from-violet-500 to-pink-500 rounded-xl">
         {todos.length === 0 ? (
           <div className="bg-white shadow-lg px-10 py-10 my-4 rounded-xl">
             <div>
