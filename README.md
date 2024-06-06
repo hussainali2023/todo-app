@@ -1,6 +1,10 @@
 
 ## Getting Started
 
+[Live Demo](https://todo-app-smoky-nu.vercel.app/)
+
+or if you want to run locally, follow the instructions below
+
 ### Prerequisites
 - Node.js
 - npm (Node Package Manager)
