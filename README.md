@@ -1,8 +1,51 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
 
-Currently, two official plugins are available:
+### Prerequisites
+- Node.js
+- npm (Node Package Manager)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/todo-app.git
+    cd todo-app
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the application:
+    ```bash
+    npm run dev
+    ```
+
+    The application will run on `http://localhost:5173`.
+
+## Usage
+
+- **Adding a Task**: Type a task in the input field and press "Add Task" or press Enter.
+- **Viewing Tasks**: All tasks will be displayed below the input field.
+- **Editing a Task**: Click the "Edit" button next to a task, modify the task, and press "Update".
+- **Deleting a Task**: Click the "Delete" button next to a task.
+
+
+## Built With
+
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [Redux](https://redux.js.org/) - A Predictable State Container for JS Apps.
+- [Redux Toolkit](https://redux-toolkit.js.org/) - The official, recommended way to write Redux logic.
+
+
+
+## Contact
+
+For any questions please contact me at
+``` 
+Email: iamhussainali2@gmail.com
+Phone: +91 9064198653
+```
+
