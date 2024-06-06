@@ -52,10 +52,10 @@ const TaskList = () => {
   };
 
   return (
-    <div className="flex py-6 items-center justify-center min-h-screen bg-gray-100">
-      <div className="md:w-1/2 mx-auto px-8 py-8 md:px-16 md:py-16 bg-gradient-to-r from-violet-500 to-pink-500 rounded-xl">
+    <div className="flex m-2 md:m-4 items-center justify-center min-h-screen bg-gray-100">
+      <div className="md:w-1/2 mx-auto px-16 py-8 md:py-16 bg-gradient-to-r from-violet-500 to-pink-500 rounded-xl">
         {todos.length === 0 ? (
-          <div className="bg-white shadow-lg px-10 py-10 my-4 rounded-xl">
+          <div className="bg-white shadow-lg px-10 py-4 md:px-10 md:py-10 my-4 rounded-xl">
             <div>
               <p className="text-center text-2xl font-bold bg-gradient-to-l from-violet-500 to-pink-500 bg-clip-text text-transparent">Your todo list is empty</p>
             </div>
@@ -69,7 +69,7 @@ const TaskList = () => {
             <div className="flex justify-center mt-6 bg-white py-6 rounded-lg">
               <div>
                 <p className="text-center text-2xl font-bold bg-gradient-to-l from-violet-500 to-pink-500 bg-clip-text text-transparent mb-4">Your todo list</p>
-                <Link to={"/task-input"} className="bg-gradient-to-r from-violet-500 to-pink-500 px-10 py-3 text-white font-bold rounded-md">Add New Todo</Link>
+                <Link to={"/task-input"} className="bg-gradient-to-r from-violet-500 to-pink-500 px-4 md:px-10 py-3 text-white font-bold rounded-md">Add New Todo</Link>
               </div>
             </div>
 
