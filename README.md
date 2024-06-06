@@ -9,7 +9,7 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/todo-app.git
+    git clone https://github.com/hussainali2023/todo-app
     cd todo-app
     ```
 
